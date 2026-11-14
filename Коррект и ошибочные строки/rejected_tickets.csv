@@ -1,0 +1,7 @@
+﻿ticket_id,created_at,customer,email,category,status,priority,assignee,hours_spent,comment,error_reason
+SRV-202609-0005,2026-09-06 13:05,Олег Миронов,user5@@example.ru,Техническая проблема,new,high,A02,3.0,Обращение клиента №5. Требуется обработка оператором.,invalid_email
+SRV-202609-0011,2026-09-12 10:23,Илья Соколов,user11@example.ru,Оплата,resolved,low,A04,-2.0,Обращение клиента №11. Требуется обработка оператором.,negative_hours
+BAD-202609-0015,2026-09-16 14:15,Роман Егоров,user15@example.ru,Техническая проблема,resolved,low,A04,4.0,Обращение клиента №15. Требуется обработка оператором.,invalid_ticket_id
+SRV-202609-0030,2026-09-03 11:30,Елена Власова,not-an-email,Техническая проблема,in_progress,critical,A03,3.5,Обращение клиента №30. Требуется обработка оператором.,invalid_email
+SRV-202609-0038,2026-09-11 10:14,Елена Власова,user38@example.ru,Возврат,in_progress,critical,A03,abc,Обращение клиента №38. Требуется обработка оператором.,hours_not_number
+SRV-202609-0044,2026-09-17 16:32,Мария Павлова,user44@example.ru,Доступ,UNKNOWN,normal,A01,2.5,Обращение клиента №44. Требуется обработка оператором.,invalid_status
