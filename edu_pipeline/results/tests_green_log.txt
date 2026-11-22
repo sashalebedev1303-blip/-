@@ -1,0 +1,39 @@
+test_bad_initial_status (test_enrollment.TestEnrollment.test_bad_initial_status) ... ok
+test_failed_change_not_logged (test_enrollment.TestEnrollment.test_failed_change_not_logged) ... ok
+test_final_status_has_no_transitions (test_enrollment.TestEnrollment.test_final_status_has_no_transitions) ... ok
+test_history_returns_copy (test_enrollment.TestEnrollment.test_history_returns_copy) ... ok
+test_initial_status_new (test_enrollment.TestEnrollment.test_initial_status_new) ... ok
+test_on_review_cannot_complete (test_enrollment.TestEnrollment.test_on_review_cannot_complete) ... ok
+test_unknown_status_raises (test_enrollment.TestEnrollment.test_unknown_status_raises) ... ok
+test_valid_path_writes_history (test_enrollment.TestEnrollment.test_valid_path_writes_history) ... ok
+test_empty_rows_raises (test_report.TestAverageDuration.test_empty_rows_raises) ... ok
+test_normal_rows (test_report.TestAverageDuration.test_normal_rows) ... ok
+test_does_not_mutate_input (test_report.TestFindByStatus.test_does_not_mutate_input) ... ok
+test_filters_by_status (test_report.TestFindByStatus.test_filters_by_status) ... ok
+test_non_string_id (test_report.TestReportLine.test_non_string_id) ... ok
+test_string_id (test_report.TestReportLine.test_string_id) ... ok
+test_limit (test_report.TestTopCourses.test_limit) ... ok
+test_returns_most_popular (test_report.TestTopCourses.test_returns_most_popular) ... ok
+test_course_code_unknown (test_validators.TestValidators.test_course_code_unknown) ... ok
+test_date_valid_and_bad_format (test_validators.TestValidators.test_date_valid_and_bad_format) ... ok
+test_duration_negative (test_validators.TestValidators.test_duration_negative) ... ok
+test_duration_not_number (test_validators.TestValidators.test_duration_not_number) ... ok
+test_duration_zero_boundary (test_validators.TestValidators.test_duration_zero_boundary) ... ok
+test_email_double_at (test_validators.TestValidators.test_email_double_at) ... ok
+test_email_without_zone (test_validators.TestValidators.test_email_without_zone) ... ok
+test_enrollment_id_digit_count (test_validators.TestValidators.test_enrollment_id_digit_count) ... ok
+test_enrollment_id_lowercase (test_validators.TestValidators.test_enrollment_id_lowercase) ... ok
+test_enrollment_id_month_boundaries (test_validators.TestValidators.test_enrollment_id_month_boundaries) ... ok
+test_enrollment_id_wrong_prefix (test_validators.TestValidators.test_enrollment_id_wrong_prefix) ... ok
+test_format_unknown (test_validators.TestValidators.test_format_unknown) ... ok
+test_status_all_valid (test_validators.TestValidators.test_status_all_valid) ... ok
+test_status_unknown (test_validators.TestValidators.test_status_unknown) ... ok
+test_valid_row_no_errors (test_validators.TestValidators.test_valid_row_no_errors) ... ok
+test_validate_row_collects_all_errors (test_validators.TestValidators.test_validate_row_collects_all_errors) ... ok
+test_validate_row_extra_columns (test_validators.TestValidators.test_validate_row_extra_columns) ... ok
+test_validate_row_missing_fields (test_validators.TestValidators.test_validate_row_missing_fields) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.011s
+
+OK

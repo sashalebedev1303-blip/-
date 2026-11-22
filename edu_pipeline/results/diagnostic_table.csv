@@ -1,0 +1,6 @@
+﻿file,encoding,result,matches_reference,verdict
+names_cp1251.txt,utf-8,UnicodeDecodeError: invalid continuation byte (байт 0xc8),-,попытка открыть CP1251-файл как UTF-8
+names_cp1251.txt,cp1251,OK,да,родная кодировка файла; текст совпал с эталоном
+names_utf8.txt,utf-8-sig,OK,эталон,чтение с учётом BOM; эталон для сравнения
+names_utf8.txt,utf-8,OK,нет,чтение без учёта BOM; текст не совпал - кодировка неверная
+names_utf8.txt,cp1251,UnicodeDecodeError: character maps to <undefined> (байт 0x98),-,попытка открыть UTF-8-файл как CP1251
