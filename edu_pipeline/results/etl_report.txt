@@ -1,0 +1,16 @@
+Прочитано: 19
+Принято: 10
+Отклонено: 9
+Дублей в файле: 1
+Новых вставлено при этом запуске: 10 (повторный запуск вставит 0 - защита от дублей)
+
+Причины:
+  EDU-202609-004: invalid_enrollment_id;invalid_email
+  EDU-202610-0008: invalid_email
+  EDU-202610-0011: unknown_course
+  EDU-202610-0012: invalid_status
+  EDU-202610-0013: negative_duration
+  edu-202610-0015: invalid_enrollment_id
+  EDU-2026AA-0016: invalid_enrollment_id
+  EDU-202610-0017: extra_columns;invalid_email;unknown_course;invalid_status;invalid_date;invalid_duration;invalid_format
+  EDU-202610-0006: duplicate_enrollment_id
