@@ -31,7 +31,7 @@ flowchart LR
 
 ### 1. Установить Python (если его нет)
 
-## Проще всего: Microsoft Store → найти «Python 3.13» → «Получить».
+* Проще всего: Microsoft Store → найти «Python 3.13» → «Получить».
 
 ## Или с python.org: в первом окне установщика обязательно поставьте галочку **«Add Python to PATH»**.
 
