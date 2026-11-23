@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Tests](https://img.shields.io/badge/автотесты-34%20%2F%2034%20OK-success)
-![Dependencies](https://img.shields.io/badge/зависимости-нет%2C%20только%20stdlib-orange)
 ![DB](https://img.shields.io/badge/БД-SQLite-003B57?logo=sqlite&logoColor=white)
 
 Консольный проект итоговой контрольной: платформа принимает заявки студентов
