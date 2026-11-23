@@ -172,6 +172,7 @@ def summary():
     else:
         print("Документы этапов на месте: schema_notes.md, exchange_scheme.md,")
         print("class_diagram.md, incident_report.md, encoding_report.md.")
+        
         print("Порядок шагов не случайный и обоснован зависимостями: база → транзакции на ней → ETL наполняет базу → выгрузки из базы (export_data читает агрегаты через queries) → автономные анализы → тесты → ноутбук(Jupyter) последним (он читает edu.db)")
 
 
